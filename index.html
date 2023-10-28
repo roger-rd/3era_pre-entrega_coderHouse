@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido al Hotel de Lujo: Ofrecemos alojamiento de primer nivel, comodidades de alta calidad y una ubicación céntrica en el corazón de la ciudad. Reserva ahora y experimenta una estancia inolvidable.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/dd8e84b4a3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5d7b6c28f4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <title>Alquiler Vacacional</title>
+</head>
+
+<body>
+    
+    <header class="header">
+        <nav class="navbar navbar-expand-sm ">
+            <div class="container-fluid text-center">
+                <li class="li-logo"><a href="index.html"><img class="icon" src="./asset/img/logo-rr.png" alt="logo" ></a></li>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/hoteles.html">Hoteles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <button class="nav-item dropdown btn  usuario">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fa-solid fa-bars"></i>
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./pages/registrar.html">Registrar</a></li>
+                                <li><a class="dropdown-item" href="./pages/login.html">Iniciar Sesion</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Centro de Ayuda</a></li>
+                            </ul>
+                    </ul>
+                    <div>
+                       <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">busqueda</button>
+                    </form> 
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section-card">
+        <h2>ENCUENTRA EL MEJOR HOSPEDAJE</h2>
+        <article class="carousel">
+            <h2>Oferta de la semana</h2>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        
+                        <div class=" ms-5 me-5  row row-cols-1 row-cols-md-2 row-cols-lg-5 row-cols-xl-6 row-cols-xxl-7  g-4 ">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/d6a9fb50-53e8-419a-ba35-a56c28975256.jpg?im_w=720" class="card-img-top" alt="Casa Hermosa">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Casa Hermosa</h5>
+                                        <p class="card-text">A 125 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">5 -10 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+
+
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img class="img-card" src="https://a0.muscache.com/im/pictures/f8a49f5f-51a5-406f-a93f-83ea84032640.jpg?im_w=1200" class="card-img-top" alt="Cabaña el Ocaso">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cabaña el Ocaso</h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -12 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img class="img-card" src="https://a0.muscache.com/im/pictures/miso/Hosting-45429406/original/25128e43-9101-4f7c-93dd-45743f399dd9.jpeg?im_w=960" class="card-img-top" alt="Hermosa cabaña a orilla de laguna">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hermosa cabaña a orilla de laguna</h5>
+                                        <p class="card-text">A 50 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/784f9499-2f9c-49f9-9d42-0590b82c93cf.jpg?im_w=960" class="card-img-top" alt="La Casita, en el Cajon del Maipo">
+                                    <div class="card-body">
+                                        <h5 class="card-title">La Casita, en el Cajon del Maipo</h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -12 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/e8453a4b-f0ab-4639-a0f9-999a67f7feca.jpg?im_w=960" class="card-img-top" alt="Cabaña Andes">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cabaña Andes</h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -12 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/997261b3-1645-4766-bb72-dae4caca150c.jpg?im_w=960" class="card-img-top" alt="Casa montaña">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Casa montaña</h5>
+
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -12 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                        
+                    </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class=" ms-5 me-5 row row-cols-1 row-cols-md-2 row-cols-lg-5 row-cols-xl-6 row-cols-xxl-7  g-4">
+                            <div class="col ">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/082b2471-a4a2-44ec-811d-a68bd424b843.jpg?im_w=960" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Casa Mirador Punta de Lobos</h5>
+                                        <p class="card-text">A 50 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">8 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-836411547075602063/original/664da4f5-e71f-4d4b-b6a0-230940596c20.jpeg?im_w=960" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">AlmaMar</h5>
+                                        <p class="card-text">A 60 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">5 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-29818397/original/9c569136-b494-4a20-8865-05a60376bc97.jpeg?im_w=960" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cabaña exclusiva en la montaña</h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -12 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-54045861/original/597a4da3-b2e7-45c7-ac92-aa2843de8e9f.jpeg?im_w=720" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hermosa cabana </h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -12 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/b9b96d52-4f11-4db8-ab33-fcdbdbaaffd3.jpg?im_w=720" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Odella Casas de Montaña</h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -12 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/a386d1d5-3b50-4602-99ca-8c7a54e7aae4.jpg?im_w=720" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cabaña cordillera</h5>
+                                        <p class="card-text">A 75 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">8 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </article>
+
+    </section>
+    <section class="section-card">
+        <article class="carousel2">
+            <h2>Oferta del mes</h2>
+            <div id="carouselDark2" class="carousel carousel-dark slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="100">
+                        <div class="row  ms-5 me-5 row-cols-1 row-cols-md-2 row-cols-lg-5 row-cols-xl-6 row-cols-xxl-7  g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/44782abd-9fcb-4be7-84d4-7eee69e93fa8.jpg?im_w=720" class="card-img-top" alt="Cabaña Miramar">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cabaña Miramar</h5>
+                                        <p class="card-text">A 40 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">7 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-53103718/original/74c9c4a4-7a1f-4ea9-af2f-7dc1a32cbffe.jpeg?im_w=720" class="card-img-top" alt="Cabaña a orillas del río">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cabaña a orillas del río</h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -15 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/44782abd-9fcb-4be7-84d4-7eee69e93fa8.jpg?im_w=720" class="card-img-top" alt="Mi Gran Refugio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mi Gran Refugio</h5>
+                                        <p class="card-text">A 125 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">20 a 25 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-728309639146746265/original/c7ec1ec2-c531-42ac-8576-abd8fcff7192.jpeg?im_w=720" class="card-img-top" alt="Tiny Love ... By">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tiny Love ... By "Surfpro"</h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -15 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/3902b702-c2b8-4f61-93c1-f12f7e35ed2f.jpg?im_w=960" class="card-img-top" alt="Glamping con piscina">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Glamping con piscina</h5>
+                                        <p class="card-text">A 85 kilometros de distancia  </p>
+                                        <p class="card-text text-danger"> 4  personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/21af6116-8bd2-4a94-a015-31094cdc3c33.jpg?im_w=720" class="card-img-top" alt="Casa Valle Del Mar">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Casa Valle Del Mar</h5>
+                                        <p class="card-text">A 225 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">12 - 15 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="ms-5 me-5 row row-cols-1 row-cols-md-2 row-cols-lg-5 row-cols-xl-6 row-cols-xxl-7  g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/3f598a65-18b2-4b81-81b9-20b9e1bbdd1f.jpg?im_w=720" class="card-img-top" alt="Cabaña Miramar">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cabaña Miramar N.1</h5>
+                                        <p class="card-text">A 55 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">6  personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/5b504410-c78b-456f-acf1-b045d72145a7.jpg?im_w=240" class="card-img-top" alt="Cabaña bosque escondido">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cabaña bosque escondido </h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -15 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/584a9396-3129-4bea-b479-720ca2d29c68.jpg?im_w=960" class="card-img-top" alt="Mi Gran Refugio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mi Gran Refugio</h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -15 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/ac9d2afd-6e70-40cf-b928-74a044436069.jpg?im_w=720" class="card-img-top" alt="Cabaña entero">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cabaña entero </h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -15 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/30f004d6-404f-4b74-886c-1a4156c7cea0.jpg?im_w=960" class="card-img-top" alt="La Cabaña Oxidada">
+                                    <div class="card-body">
+                                        <h5 class="card-title">La Cabaña Oxidada</h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -15 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://a0.muscache.com/im/pictures/44c13117-39db-4c5b-91fe-21db45eea6c8.jpg?im_w=720" class="card-img-top" alt="Romántica Cabaña con gran entorno">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Romántica Cabaña con gran entorno</h5>
+                                        <p class="card-text">A 25 kilometros de distancia  </p>
+                                        <p class="card-text text-danger">10 -15 personas  </p>
+                                        <p class="card-text">Disponible todo el año </p>
+                                    </div>
+                                    <button class="btn btn-outline-success" type="button">ver</button>
+                                </div>
+                            
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselDark2"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </article>
+    </section>
+    <footer class=" text-center text-light p-2 footer">
+        <div class="d-flex align-items-center">
+            <p class="p-2 flex-grow-1 fs-4">Roger Rodriguez © 2023. Todos los derechos reservados.</p>
+        </div>
+        <div d-flex align-items-center iconos>
+            <a class="p-2 text-decoration-none text-light fs-3"
+                href="https://www.facebook.com/settings?tab=account&section=username" target="_blank">
+                <i class="fa-brands fa-square-facebook fa-2x pe-2"></i> </a>
+            <a class="p-2 text-decoration-none text-light fs-3" href="https://www.instagram.com/roger_david.r/"
+                target="_blank">
+                <i class="fa-brands fa-instagram fa-2x pe-2"></i></a>
+            <a class="p-2 text-decoration-none text-light fs-1" href="https://www.linkedin.com/in/roger-rodriguez-rdrp/"
+                target="_blank">
+                <i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
