@@ -1,0 +1,37 @@
+.header{
+    background-color: rgba(6, 209, 162, 0.81);
+    position: sticky;
+    margin-bottom: 5%;
+    list-style: none;
+
+        img {
+        padding: 0px;
+        height: 60px;
+        width: 80;
+        }
+
+}
+.navbar{
+    color: rgb(4, 84, 87)
+}
+nav{
+    position: relative;
+}
+
+.nav-pages{
+    list-style: none;
+
+        i {
+            display: inline-block;
+            width: 12%;
+            position: relative;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+
+}
+
+.usuario{
+    padding: 0;
+}

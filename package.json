@@ -1,0 +1,14 @@
+{
+  "name": "3era_pre-entrega_coderhouse-",
+  "version": "1.0.0",
+  "description": "todo el proyecto esta para verlo en movil, tablet y destokp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    
+  }
+}

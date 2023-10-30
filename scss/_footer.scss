@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    gap: 10px;
+    background-color:rgba(6, 209, 162, 0.81) ;
+    margin-top: 10%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+
+        p,h4{
+            margin:30px;
+            color: rgb(4, 84, 87)
+        }
+
+        a{
+            width: 10px;
+            color: rgb(4, 84, 87);
+        }
+}
