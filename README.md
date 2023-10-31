@@ -2,7 +2,7 @@
 
 <p>todo el proyecto esta para verlo en movil, tablet y destokp.</p>
 <p>paginas principal, hoteles y nosotros animacion titulo.</p>
-<p>pagina principal animacion en las cards</p>
+<p>pagina principal y hoteles animacion en las cards</p>
 
 
 para ver proyecto 
