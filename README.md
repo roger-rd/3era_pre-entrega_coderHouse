@@ -1,6 +1,8 @@
 # 3era_pre-entrega_coderHouse
 
-todo el proyecto esta para verlo en movil, tablet y destokp
+todo el proyecto esta para verlo en movil, tablet y destokp.
+paginas principal, hoteles y nosotros animacion titulo.
+pagina principal animacion en las cards
 
 
 para ver proyecto 
