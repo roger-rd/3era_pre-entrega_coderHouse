@@ -8,4 +8,8 @@
 para ver proyecto 
 <a href="https://resonant-blancmange-ae5486.netlify.app/" target="_blank">Has clic aqui</a>
 
+dominio y pagina 
+
+
+<a href="http://rralojamiento.000.pe/index.html" target="_blank">http://rralojamiento.000.pe/index.html</a>
 
