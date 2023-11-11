@@ -1,5 +1,5 @@
 
-# Descripción del Proyecto - 3era Pre-entrega CoderHouse
+# Descripción del Proyecto - entrega final CoderHouse
 
 Este proyecto ha sido diseñado para una óptima visualización en dispositivos móviles, tabletas y escritorios, garantizando una experiencia de usuario consistente en todas las plataformas.
 
