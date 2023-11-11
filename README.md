@@ -1,15 +1,27 @@
-# 3era_pre-entrega_coderHouse
 
-<p>todo el proyecto esta para verlo en movil, tablet y destokp.</p>
-<p>paginas principal, hoteles y nosotros animacion titulo.</p>
-<p>pagina principal y hoteles animacion en las cards</p>
+# Descripción del Proyecto - 3era Pre-entrega CoderHouse
 
+Este proyecto ha sido diseñado para una óptima visualización en dispositivos móviles, tabletas y escritorios, garantizando una experiencia de usuario consistente en todas las plataformas.
 
-para ver proyecto 
-<a href="https://resonant-blancmange-ae5486.netlify.app/" target="_blank">Has clic aqui</a>
+### Características Destacadas:
 
-dominio y pagina 
+- **Páginas Principales, Hoteles y Nosotros:**
+  - Diseño y funcionalidad mejorados para las páginas principales, de hoteles y la sección "Nosotros".
+  - Incorporación de animaciones en los títulos para una experiencia visual atractiva.
 
+- **Animaciones en Cards:**
+  - Se han implementado animaciones específicas en las cards de las páginas principales y de hoteles, mejorando la interactividad y destacando la información clave.
 
-<a href="http://rralojamiento.000.pe/index.html" target="_blank">http://rralojamiento.000.pe/index.html</a>
+### Acceso al Proyecto:
 
+Para visualizar y explorar el proyecto, puedes acceder a la siguiente URL:
+
+[![Proyecto](https://resonant-blancmange-ae5486.netlify.app/)](https://resonant-blancmange-ae5486.netlify.app/)
+
+### Dominio y Página Principal:
+
+Además, puedes acceder al proyecto a través del siguiente dominio y página:
+
+[http://rralojamiento.000.pe/index.html](http://rralojamiento.000.pe/index.html)
+
+¡Explora las funcionalidades mejoradas y disfruta de una experiencia de usuario envolvente!
